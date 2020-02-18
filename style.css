@@ -181,3 +181,16 @@ hr.socket {
     width: 100%;
     border-top:0.2rem solid #666b71 ;
 }
+
+@media(max-width:420px){
+    .clients img {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media(min-width:421px) and (max-width:768px){
+    .clients .row {
+        align-items: center;
+    }
+}
